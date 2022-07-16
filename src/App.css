@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: FONTS OF KIEN DEFAULT;
+  src: url(../public/assets/fonts/ProductSans-Medium.ttf);
+}
+@font-face {
+  font-family: FONTS OF KIEN ITALI;
+  src: url(../public/assets/fonts/ProductSans-Italic.ttf);
+}
+body{
+  font-family: FONTS OF KIEN DEFAULT;
+  box-sizing: border-box;
+  line-height: 1.8rem;
+  margin: 0;
+  font-size: 13px;
+}
+.productList{
+  margin-top: 24px;
+  margin-left: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}

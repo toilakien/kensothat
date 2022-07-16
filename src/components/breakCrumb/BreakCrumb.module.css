@@ -1,0 +1,31 @@
+.breakCrumbContainer{
+    height: 48px;
+    background-color: aqua;
+    
+    display: flex;
+    align-items: center;
+}
+.breakCrumbItem{
+    height: 48px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    color: #3333b8;
+    font-size: 1.2rem;
+    margin-left: 24px;
+}
+.text:hover{
+    color: #fe5533;
+}
+.logo{
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../../public/assets/img/right-arrow-icon-vector-21638885.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
